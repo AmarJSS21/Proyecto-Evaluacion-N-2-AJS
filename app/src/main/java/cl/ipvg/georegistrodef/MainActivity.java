@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
-        // NAVEGACIÓN 3: Ir a la pantalla de Historial
+        // navegacion 3: Ir a la pantalla de Historial
         btnVerHistorial.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, HistorialActivity.class);
             startActivity(intent);
@@ -40,7 +40,6 @@ public class MainActivity extends AppCompatActivity {
             // Aquí enlazamos la Activity que mostrará la lista de datos desde Firestore
             // Intent intent = new Intent(MainActivity.this, HistorialActivity.class);
             // startActivity(intent);
-
 
     }
 }
